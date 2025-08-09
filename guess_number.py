@@ -20,4 +20,4 @@ while secret_num != guess:
               f'{user_try} попыток!')
         break
  
-print("Конекц игры!")
+print("Конекц игры! И новый коммит!")
