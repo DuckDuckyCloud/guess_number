@@ -2,7 +2,7 @@ import random
 
 welcome_text = 'Привет'
 
-secret_num = random.randint(1,100)
+secret_num = random.randint(1, 100)
 guess = 0
 # комментарий
 
@@ -16,8 +16,7 @@ while secret_num != guess:
         user_try += 1
         print('Ваше число меньше того, что загадано')
     else:
-        print(f'Отличная интуиция! Вы угадали число: {secret_num} за ' \
+        print(f'Отличная интуиция! Вы угадали число: {secret_num} за '
               f'{user_try} попыток!')
         break
- 
 print("Конекц игры! И новый коммит!")
